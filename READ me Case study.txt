@@ -1,0 +1,32 @@
+# House Price Prediction Using Random Forest Regressor
+
+This project demonstrates the use of machine learning techniques to predict housing prices based on various features such as crime rate, average number of rooms, and others. The model is built using the **Boston Housing Dataset**, a popular dataset for regression tasks.
+
+## Problem Statement
+
+The goal of this case study is to predict house prices based on multiple features. The dataset includes information on factors such as:
+- Crime rate
+- Average number of rooms
+- Accessibility to highways
+- Property tax rates
+- And more...
+
+The target variable is the **median value of owner-occupied homes** (`medv`).
+
+## Tech Stack
+
+- **Python**: The primary programming language used.
+- **Pandas**: For data manipulation and analysis.
+- **Numpy**: For numerical operations.
+- **Matplotlib**: For data visualization.
+- **Seaborn**: For advanced visualizations.
+- **Scikit-learn**: For building the machine learning model and evaluation.
+- **Joblib**: For saving and loading the trained model.
+
+## Installation
+
+To run this project, you need Python 3.x installed. Follow these steps to set up the project on your local machine:
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/yourusername/house-price-prediction.git
